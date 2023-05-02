@@ -1,0 +1,97 @@
+[
+  {
+    "DisplayName": "compensations (Views)",
+    "Name": "_crfa7_compensation_views",
+    "RelatedEntityName": "compensations",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "52bfd475-e666-4a5b-8b32-49e67203ebfc": "compensation Associated View",
+      "6e0034c1-fdd8-445c-80ec-f6ad81975d7a": "Inactive compensations",
+      "6eeec41a-dfdd-4ef1-8611-b9b09d40a85f": "Active compensations",
+      "b4743d54-fdf5-4865-af2a-d6037b6810e2": "compensation Lookup View",
+      "e80bc11f-d0e6-4cd4-b70e-c9f94766c663": "compensation Advanced Find View"
+    }
+  },
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "crfa7_compensations",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "crfa7_compensation",
+    "MaxGetRowsCount": 500,
+    "Name": "compensations",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "crfa7_compensation_AsyncOperations": "System Jobs",
+      "crfa7_compensation_BulkDeleteFailures": "Bulk Delete Failures",
+      "crfa7_compensation_DuplicateBaseRecord": "Duplicate Records (crfa7_compensation_DuplicateBaseRecord)",
+      "crfa7_compensation_DuplicateMatchingRecord": "Duplicate Records (crfa7_compensation_DuplicateMatchingRecord)",
+      "crfa7_compensation_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "crfa7_compensation_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "crfa7_compensation_ProcessSession": "Process Sessions",
+      "crfa7_compensation_SyncErrors": "Sync Errors",
+      "crfa7_compensationid": "compensation",
+      "crfa7_name": "Name",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "compensations",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Status (compensations)",
+    "Name": "crfa7_compensation_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "compensations"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "compensations",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (compensations)",
+    "Name": "crfa7_compensation_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "compensations"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "compensations",
+    "Type": "OptionSetInfo"
+  }
+]

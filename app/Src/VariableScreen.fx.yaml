@@ -1,0 +1,27 @@
+VariableScreen As screen:
+
+    heading_design As label:
+        Fill: =RGBA(236, 249, 255, 1)
+        Font: =Font.Georgia
+        FontWeight: =FontWeight.Bold
+        Height: =178
+        Size: =26
+        Text: ="heading"
+        Width: =390
+        X: =40
+        Y: =40
+        ZIndex: =1
+
+    footer_design As label:
+        Text: ="footer"
+        X: =750
+        Y: =153
+        ZIndex: =2
+
+    type_container As label:
+        Fill: =RGBA(255, 251, 235, 1)
+        Text: ="Text"
+        X: =130
+        Y: =310
+        ZIndex: =3
+

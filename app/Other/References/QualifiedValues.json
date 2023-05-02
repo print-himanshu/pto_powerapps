@@ -1,0 +1,32 @@
+{
+  "QualifiedValues": [
+    {
+      "Kind": "default.cds_crfa7_leaveentries_forms",
+      "Namespace": "LeaveEntries (Forms)",
+      "Values": {
+        "Information": "aa84637b-d13b-46dc-b2e8-f95f028ef4fa"
+      }
+    },
+    {
+      "Kind": "default.cds_crfa7_leavetype_forms",
+      "Namespace": "Leave Types (Forms)",
+      "Values": {
+        "Information": "fe780f5d-e874-45df-bb0e-bfe3df9ee680"
+      }
+    },
+    {
+      "Kind": "default.cds_crfa7_compensation_forms",
+      "Namespace": "compensations (Forms)",
+      "Values": {
+        "Information": "3d95afd2-9c89-4595-9543-f73021124a36"
+      }
+    },
+    {
+      "Kind": "default.cds_crfa7_absense_type_forms",
+      "Namespace": "absense_types (Forms)",
+      "Values": {
+        "Information": "cc0244d7-8f9b-47c4-a497-ccaf04fcb1a2"
+      }
+    }
+  ]
+}

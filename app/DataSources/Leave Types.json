@@ -1,0 +1,98 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "crfa7_leavetypes",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "crfa7_leavetype",
+    "MaxGetRowsCount": 500,
+    "Name": "Leave Types",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "crfa7_description": "Description",
+      "crfa7_leavetype_AsyncOperations": "System Jobs",
+      "crfa7_leavetype_BulkDeleteFailures": "Bulk Delete Failures",
+      "crfa7_leavetype_DuplicateBaseRecord": "Duplicate Records (crfa7_leavetype_DuplicateBaseRecord)",
+      "crfa7_leavetype_DuplicateMatchingRecord": "Duplicate Records (crfa7_leavetype_DuplicateMatchingRecord)",
+      "crfa7_leavetype_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "crfa7_leavetype_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "crfa7_leavetype_ProcessSession": "Process Sessions",
+      "crfa7_leavetype_SyncErrors": "Sync Errors",
+      "crfa7_leavetypeid": "Leave Type",
+      "crfa7_name": "Name",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Leave Types",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Leave Types (Views)",
+    "Name": "_crfa7_leavetype_views",
+    "RelatedEntityName": "Leave Types",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "063c7341-103f-49c6-9071-0000ecfcd02b": "Leave Type Advanced Find View",
+      "34a6210a-1711-4b18-80fe-96c51ea0b2bf": "Active Leave Types",
+      "92068422-932e-4df6-b8e4-61707aa372e6": "Leave Type Lookup View",
+      "ebc9f0d1-16c3-4c5a-98c8-c82b3ff70fbd": "Leave Type Associated View",
+      "f878917d-4f7e-438c-8763-732774daf6e7": "Inactive Leave Types"
+    }
+  },
+  {
+    "DisplayName": "Status (Leave Types)",
+    "Name": "crfa7_leavetype_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Leave Types"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Leave Types",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Leave Types)",
+    "Name": "crfa7_leavetype_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Leave Types"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Leave Types",
+    "Type": "OptionSetInfo"
+  }
+]

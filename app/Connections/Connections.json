@@ -1,0 +1,27 @@
+{
+  "16540c41-df96-49ad-89ae-f27477ce88f2": {
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1627/1.0.1627.3238/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://thesunflowerlab.sharepoint.com/sites/TraineeshipProgram2022-23-RPA": {
+        "dataSources": {
+          "adult-entire dataset": {
+            "tableName": "68f65956-66e9-4988-8c50-92a17e9f53ca"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "adult-entire dataset"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "16540c41-df96-49ad-89ae-f27477ce88f2"
+  }
+}

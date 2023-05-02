@@ -1,0 +1,290 @@
+"HomeScreen As screen.'tabletAutoLayout_HeaderMainFooter_ver1.0'":
+
+    HomeScreenContainer As groupContainer.verticalAutoLayoutContainer:
+        Height: =Parent.Height
+        LayoutAlignItems: =LayoutAlignItems.Stretch
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutMode: =LayoutMode.Auto
+        Width: =Parent.Width
+        ZIndex: =1
+
+        HeaderContainer As groupContainer.horizontalAutoLayoutContainer:
+            Fill: =heading_design.Fill
+            FillPortions: =0
+            Height: =75
+            LayoutAlignItems: =LayoutAlignItems.Center
+            LayoutJustifyContent: =LayoutJustifyContent.Center
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            ZIndex: =2
+
+            title_label As Text:
+                Alignment: ='PowerApps.CoreControls.TextCanvas.Alignment'.Center
+                DisplayMode: =DisplayMode.View
+                FillPortions: =8
+                Height: =32
+                LayoutMinHeight: =32
+                LayoutMinWidth: =96
+                Size: =heading_design.Size
+                Strikethrough: =false
+                Text: ="PTO Request Form"
+                Weight: ='PowerApps.CoreControls.TextCanvas.Weight'.Bold
+                Width: =96
+                X: =0
+                Y: =0
+                ZIndex: =1
+
+            image_container As groupContainer.verticalAutoLayoutContainer:
+                Height: =0
+                LayoutAlignItems: =LayoutAlignItems.End
+                LayoutDirection: =LayoutDirection.Vertical
+                LayoutJustifyContent: =LayoutJustifyContent.Center
+                LayoutMinHeight: =Parent.Height
+                LayoutMinWidth: =250
+                LayoutMode: =LayoutMode.Auto
+                PaddingRight: =10
+                ZIndex: =2
+
+                user_profile_photo As image:
+                    Height: =Parent.Height
+                    Image: =himanshu_rajput
+                    ImagePosition: =ImagePosition.Fill
+                    RadiusBottomLeft: =user_profile_photo.Height
+                    RadiusBottomRight: =user_profile_photo.Height
+                    RadiusTopLeft: =user_profile_photo.Height
+                    RadiusTopRight: =user_profile_photo.Height
+                    ZIndex: =1
+
+            user_name_label As Badge:
+                Appearance: ='PowerApps.CoreControls.BadgeCanvas.Appearance'.Outline
+                Content: ="Himanshu Rajput"
+                DisplayMode: =DisplayMode.Edit
+                FillPortions: =1
+                Height: =32
+                LayoutMinHeight: =32
+                LayoutMinWidth: =32
+                Width: =32
+                X: =0
+                Y: =0
+                ZIndex: =3
+
+        MainSectionContainer As groupContainer.verticalAutoLayoutContainer:
+            LayoutDirection: =LayoutDirection.Vertical
+            LayoutMinHeight: =250
+            LayoutMinWidth: =50
+            LayoutMode: =LayoutMode.Auto
+            ZIndex: =3
+
+            type_and_comment_container As groupContainer.horizontalAutoLayoutContainer:
+                Fill: =type_container.Fill
+                FillPortions: =0
+                Height: =150
+                LayoutMinHeight: =100
+                LayoutMinWidth: =250
+                LayoutMode: =LayoutMode.Auto
+                ZIndex: =1
+
+                types_container As groupContainer.verticalAutoLayoutContainer:
+                    FillPortions: =0
+                    LayoutDirection: =LayoutDirection.Vertical
+                    LayoutMinHeight: =100
+                    LayoutMinWidth: =250
+                    LayoutMode: =LayoutMode.Auto
+                    ZIndex: =1
+
+                    compensation_container As groupContainer.horizontalAutoLayoutContainer:
+                        AlignInContainer: =AlignInContainer.SetByContainer
+                        Height: =0
+                        LayoutAlignItems: =LayoutAlignItems.Center
+                        LayoutJustifyContent: =LayoutJustifyContent.Center
+                        LayoutMinHeight: =50
+                        LayoutMinWidth: =100
+                        LayoutMode: =LayoutMode.Auto
+                        LayoutWrap: =true
+                        ZIndex: =1
+
+                        compensation_label As Text:
+                            Alignment: ='PowerApps.CoreControls.TextCanvas.Alignment'.Center
+                            DisplayMode: =DisplayMode.View
+                            FillPortions: =1
+                            Height: =32
+                            LayoutMinHeight: =32
+                            LayoutMinWidth: =96
+                            Text: ="Compensation Type"
+                            Weight: ='PowerApps.CoreControls.TextCanvas.Weight'.Semibold
+                            Width: =96
+                            X: =0
+                            Y: =0
+                            ZIndex: =1
+
+                        "compensation_info As 'Info button'":
+                            Content: ="Type of Compensation available"
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =32
+                            LayoutMinHeight: =32
+                            LayoutMinWidth: =32
+                            Width: =32
+                            X: =0
+                            Y: =0
+                            ZIndex: =2
+
+                        compensation_drop_down As Dropdown.pcfdataset:
+                            DisplayMode: =DisplayMode.Edit
+                            FillPortions: =1
+                            Height: =32
+                            Items: =compensations
+                            LayoutMinHeight: =32
+                            LayoutMinWidth: =320
+                            Required: =true
+                            Width: =320
+                            X: =0
+                            Y: =0
+                            ZIndex: =3
+
+                            Name4 As pcfDataField.textualColumn:
+                                FieldDisplayName: ="Name"
+                                FieldName: ="crfa7_name"
+                                FieldType: ="s"
+                                FieldVariantName: ="textualColumn"
+                                Order: =1
+                                ZIndex: =7
+
+                    absense_type_container As groupContainer.horizontalAutoLayoutContainer:
+                        AlignInContainer: =AlignInContainer.SetByContainer
+                        Height: =120
+                        LayoutAlignItems: =LayoutAlignItems.Center
+                        LayoutJustifyContent: =LayoutJustifyContent.Center
+                        LayoutMinHeight: =50
+                        LayoutMinWidth: =100
+                        LayoutMode: =LayoutMode.Auto
+                        LayoutWrap: =true
+                        ZIndex: =2
+
+                        absense_type_label As Text:
+                            Alignment: ='PowerApps.CoreControls.TextCanvas.Alignment'.Center
+                            DisplayMode: =DisplayMode.View
+                            FillPortions: =1
+                            Height: =32
+                            LayoutMinHeight: =32
+                            LayoutMinWidth: =96
+                            Text: ="Leave Type"
+                            Weight: ='PowerApps.CoreControls.TextCanvas.Weight'.Semibold
+                            Width: =96
+                            X: =0
+                            Y: =0
+                            ZIndex: =1
+
+                        "absense_type_info As 'Info button'":
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =32
+                            LayoutMinHeight: =32
+                            LayoutMinWidth: =32
+                            Width: =32
+                            X: =0
+                            Y: =0
+                            ZIndex: =2
+
+                        absense_type_dropdown As Dropdown.pcfdataset:
+                            DisplayMode: =DisplayMode.Edit
+                            FillPortions: =1
+                            Height: =32
+                            Items: =absense_types
+                            LayoutMinHeight: =32
+                            LayoutMinWidth: =320
+                            Required: =true
+                            Width: =320
+                            X: =0
+                            Y: =0
+                            ZIndex: =3
+
+                            Name3 As pcfDataField.textualColumn:
+                                FieldDisplayName: ="Name"
+                                FieldName: ="crfa7_name"
+                                FieldType: ="s"
+                                FieldVariantName: ="textualColumn"
+                                Order: =1
+                                ZIndex: =6
+
+                comment_container As groupContainer.horizontalAutoLayoutContainer:
+                    LayoutMinHeight: =100
+                    LayoutMinWidth: =250
+                    LayoutMode: =LayoutMode.Auto
+                    ZIndex: =2
+
+                    comment_label As Text:
+                        AlignInContainer: =AlignInContainer.Center
+                        Alignment: ='PowerApps.CoreControls.TextCanvas.Alignment'.End
+                        DisplayMode: =DisplayMode.View
+                        FillPortions: =1
+                        Height: =32
+                        LayoutMinHeight: =32
+                        LayoutMinWidth: =96
+                        Text: ="Comment"
+                        Weight: ='PowerApps.CoreControls.TextCanvas.Weight'.Semibold
+                        Width: =96
+                        X: =0
+                        Y: =0
+                        ZIndex: =1
+
+                    comment_info_container As groupContainer.verticalAutoLayoutContainer:
+                        AlignInContainer: =AlignInContainer.Center
+                        FillPortions: =0
+                        Height: =Parent.Height / 2
+                        LayoutDirection: =LayoutDirection.Vertical
+                        LayoutMinHeight: =Parent.Height / 2
+                        LayoutMinWidth: =250
+                        LayoutMode: =LayoutMode.Auto
+                        Width: =30
+                        ZIndex: =3
+
+                        "comment_info As 'Info button'":
+                            Content: ="Please Enter your Leave Reason"
+                            DisplayMode: =DisplayMode.View
+                            Height: =32
+                            LayoutMinHeight: =32
+                            LayoutMinWidth: =32
+                            Width: =32
+                            X: =0
+                            Y: =
+                            ZIndex: =1
+
+                    "comment_input As 'Text input'":
+                        AccessibleLabel: =""
+                        AlignInContainer: =AlignInContainer.Center
+                        DisplayMode: =DisplayMode.Edit
+                        FillPortions: =7
+                        Height: =Parent.Height / 2
+                        LayoutMinHeight: =32
+                        LayoutMinWidth: =320
+                        Mode: ='PowerApps.CoreControls.TextInputCanvas.Mode'.Multiline
+                        Required: =true
+                        Value: =""
+                        Width: =320
+                        X: =0
+                        Y: =0
+                        ZIndex: =4
+
+            Button1 As button:
+                Text: ="Add Row"
+                ZIndex: =2
+
+            Gallery1 As gallery.galleryVertical:
+                DelayItemLoading: =true
+                FillPortions: =0
+                Items: =LeaveEntries
+                Layout: =Layout.Vertical
+                LayoutMinHeight: =287
+                LayoutMinWidth: =320
+                LoadingSpinner: =LoadingSpinner.Data
+                TemplateSize: =If(Self.Layout = Layout.Horizontal, Min(280, Self.Width - 60), Min(280, Self.Height - 60))
+                ZIndex: =3
+
+        FooterContainer As groupContainer.horizontalAutoLayoutContainer:
+            FillPortions: =0
+            Height: =150
+            LayoutMinHeight: =100
+            LayoutMinWidth: =50
+            LayoutMode: =LayoutMode.Auto
+            ZIndex: =4
+
