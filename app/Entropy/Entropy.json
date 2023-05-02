@@ -2,55 +2,55 @@
   "ComponentIndexes": {},
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
-    "absense_type_container": 19,
-    "absense_type_dropdown": 22,
-    "absense_type_info": 21,
-    "absense_type_label": 20,
+    "absense_type_container": 23,
+    "absense_type_dropdown": 26,
+    "absense_type_info": 25,
+    "absense_type_label": 24,
     "App": 1,
-    "Button1": 29,
-    "comment_container": 24,
-    "comment_info": 26,
-    "comment_info_container": 25,
-    "comment_input": 27,
-    "comment_label": 28,
-    "compensation_container": 14,
-    "compensation_drop_down": 17,
-    "compensation_info": 16,
-    "compensation_label": 15,
-    "footer_design": 35,
-    "FooterContainer": 32,
-    "Gallery1": 30,
-    "galleryTemplate1": 31,
-    "HeaderContainer": 6,
-    "heading_design": 34,
-    "HomeScreen": 4,
-    "HomeScreenContainer": 5,
+    "Button1": 33,
+    "comment_container": 28,
+    "comment_info": 30,
+    "comment_info_container": 29,
+    "comment_input": 31,
+    "comment_label": 32,
+    "compensation_container": 18,
+    "compensation_drop_down": 21,
+    "compensation_info": 20,
+    "compensation_label": 19,
+    "footer_design": 6,
+    "FooterContainer": 36,
+    "Gallery1": 34,
+    "galleryTemplate1": 35,
+    "HeaderContainer": 10,
+    "heading_design": 5,
+    "HomeScreen": 8,
+    "HomeScreenContainer": 9,
     "Host": 3,
-    "image_container": 7,
-    "MainSectionContainer": 11,
-    "Name3": 23,
-    "Name4": 18,
-    "title_label": 9,
-    "type_and_comment_container": 12,
-    "type_container": 36,
-    "types_container": 13,
-    "user_name_label": 10,
-    "user_profile_photo": 8,
-    "VariableScreen": 33
+    "image_container": 11,
+    "MainSectionContainer": 15,
+    "Name3": 27,
+    "Name4": 22,
+    "title_label": 13,
+    "type_and_comment_container": 16,
+    "type_container": 7,
+    "types_container": 17,
+    "user_name_label": 14,
+    "user_profile_photo": 12,
+    "VariableScreen": 4
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "05/02/2023 09:59:38",
+  "HeaderLastSavedDateTimeUTC": "05/02/2023 10:05:56",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
-    "16540c41-df96-49ad-89ae-f27477ce88f2": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/f09d784c2b10494a8bc59e6eeae155d0\""
+    "16540c41-df96-49ad-89ae-f27477ce88f2": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/3464a85caa1643ceaca92156647bd3f5\""
   },
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {
     "himanshu_rajput": "6c7d05f3-a7ee-46aa-bfd8-0b9aa74e3217.jpeg"
   },
   "LocalResourceRootPaths": {
-    "himanshu_rajput": "https://docserverpwaprodsin.blob.core.windows.net/ed513376-1d56-4935-846b-3adb31091120-1/resource/Assets0Images06c7d05f3-a7ee-46aa-bfd8-0b9aa74e3217.jpeg?sv=2018-03-28&sr=b&sig=YjwFTycK6WfwdDntyyRD%2BzjNjmA2TDoY0K3YjFi68sY%3D&spr=https&se=2023-05-03T09%3A36%3A13Z&sp=r"
+    "himanshu_rajput": "https://docserverpwaprodcin.blob.core.windows.net/402d73a3-e595-4903-a074-91c1718c7bcb-1/resource/Assets0Images06c7d05f3-a7ee-46aa-bfd8-0b9aa74e3217.jpeg?sv=2018-03-28&sr=b&sig=mKbksXbFbo2FlpLamQ27SGnBartZocfC5UASiw9Jcio%3D&spr=https&se=2023-05-03T10%3A20%3A13Z&sp=r"
   },
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
@@ -85,12 +85,12 @@
   },
   "OrderTemplate": {},
   "OrderXMLTemplate": {
-    "button": 3,
-    "gallery": 4,
-    "groupContainer": 0,
-    "image": 1,
-    "label": 5,
-    "pcfDataField": 2
+    "button": 4,
+    "gallery": 5,
+    "groupContainer": 1,
+    "image": 2,
+    "label": 0,
+    "pcfDataField": 3
   },
   "OverridablePropertiesEntry": {
     "absense_type_container": {},
@@ -330,7 +330,7 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.3088814,
+    "AnalysisLoadTime": 0.135825,
     "ControlCount": {
       "button": 1,
       "gallery": 1,
@@ -346,7 +346,7 @@
       "PowerApps_CoreControls_TextInputCanvas": 1,
       "screen": 2
     },
-    "DeserializationLoadTime": 1.9380495
+    "DeserializationLoadTime": 1.2623821
   },
   "WasLocalDatabaseReferencesEmpty": false
 }

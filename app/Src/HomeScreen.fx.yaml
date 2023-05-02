@@ -111,7 +111,7 @@
                             Height: =32
                             LayoutMinHeight: =32
                             LayoutMinWidth: =96
-                            Text: ="Compensation Type"
+                            Text: ="Compensation Value"
                             Weight: ='PowerApps.CoreControls.TextCanvas.Weight'.Semibold
                             Width: =96
                             X: =0
