@@ -111,6 +111,7 @@
                             Height: =32
                             LayoutMinHeight: =32
                             LayoutMinWidth: =96
+                            Size: =17
                             Text: ="Compensation Value"
                             Weight: ='PowerApps.CoreControls.TextCanvas.Weight'.Semibold
                             Width: =96
@@ -168,6 +169,7 @@
                             Height: =32
                             LayoutMinHeight: =32
                             LayoutMinWidth: =96
+                            Size: =17
                             Text: ="Leave Type"
                             Weight: ='PowerApps.CoreControls.TextCanvas.Weight'.Semibold
                             Width: =96
@@ -220,6 +222,7 @@
                         Height: =32
                         LayoutMinHeight: =32
                         LayoutMinWidth: =96
+                        Size: =17
                         Text: ="Comment"
                         Weight: ='PowerApps.CoreControls.TextCanvas.Weight'.Semibold
                         Width: =96
